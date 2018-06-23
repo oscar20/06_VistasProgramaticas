@@ -18,6 +18,12 @@ class ConversionViewController: UIViewController {
             updateCelsiusLabel()
         }
     }
+    let numberFormatter: NumberFormatter = {
+        let nf = NumberFormatter()
+        nf.numberStyle = .decimal
+        nf.minimumFractionDigits = 0
+        nf.maximumFractionDigits = 1
+        return nf }()
     
     //Quitar teclado
     @IBAction func dismissKeyboard(_ sender: UITapGestureRecognizer) {
@@ -49,7 +55,9 @@ class ConversionViewController: UIViewController {
     
     func updateCelsiusLabel() {
         if let celsiusValue = celsiusValue {
-            celsiusLabel.text = "\(celsiusValue.value)"
+            //celsiusLabel.text = "\(celsiusValue.value)"
+            celsiusLabel.text =
+                numberFormatter.string(from: NSNumber(value: celsiusValue.value))
         } else {
             celsiusLabel.text = "???"
         }
