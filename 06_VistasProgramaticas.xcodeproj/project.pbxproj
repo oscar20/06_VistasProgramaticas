@@ -12,6 +12,7 @@
 		3D230BBC20DDACE00004F054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D230BBB20DDACE00004F054 /* Assets.xcassets */; };
 		3D230BBF20DDACE00004F054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D230BBD20DDACE00004F054 /* LaunchScreen.storyboard */; };
 		3D230C3F20DDB91A0004F054 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D230C3E20DDB91A0004F054 /* ConversionViewController.swift */; };
+		3D230C4220DDD1670004F054 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D230C4120DDD1670004F054 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3D230BBE20DDACE00004F054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D230BC020DDACE10004F054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D230C3E20DDB91A0004F054 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		3D230C4120DDD1670004F054 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D230C4220DDD1670004F054 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				3D230BB320DDACE00004F054 /* 06_VistasProgramaticas */,
 				3D230BB220DDACE00004F054 /* Products */,
+				3D230C4020DDD1670004F054 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				3D230C3E20DDB91A0004F054 /* ConversionViewController.swift */,
 			);
 			path = 06_VistasProgramaticas;
+			sourceTree = "<group>";
+		};
+		3D230C4020DDD1670004F054 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D230C4120DDD1670004F054 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
