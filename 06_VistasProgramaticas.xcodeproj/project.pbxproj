@@ -13,6 +13,7 @@
 		3D230BBF20DDACE00004F054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D230BBD20DDACE00004F054 /* LaunchScreen.storyboard */; };
 		3D230C3F20DDB91A0004F054 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D230C3E20DDB91A0004F054 /* ConversionViewController.swift */; };
 		3D230C4220DDD1670004F054 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D230C4120DDD1670004F054 /* MapKit.framework */; };
+		3D230C4420DDD5E20004F054 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D230C4320DDD5E20004F054 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3D230BC020DDACE10004F054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D230C3E20DDB91A0004F054 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		3D230C4120DDD1670004F054 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3D230C4320DDD5E20004F054 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				3D230BBD20DDACE00004F054 /* LaunchScreen.storyboard */,
 				3D230BC020DDACE10004F054 /* Info.plist */,
 				3D230C3E20DDB91A0004F054 /* ConversionViewController.swift */,
+				3D230C4320DDD5E20004F054 /* MapViewController.swift */,
 			);
 			path = 06_VistasProgramaticas;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D230C3F20DDB91A0004F054 /* ConversionViewController.swift in Sources */,
+				3D230C4420DDD5E20004F054 /* MapViewController.swift in Sources */,
 				3D230BB520DDACE00004F054 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
