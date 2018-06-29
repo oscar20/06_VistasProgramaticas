@@ -89,14 +89,10 @@
         <!--Item-->
         <scene sceneID="6Ov-Wl-ufZ">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uOQ-5P-YhX" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Ayu-iK-gCz" customClass="MapViewController" customModule="_6_VistasProgramaticas" customModuleProvider="target" sceneMemberID="viewController">
-                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="9iV-V1-TRD">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </mapView>
                     <tabBarItem key="tabBarItem" title="Item" id="qto-zN-VT8"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uOQ-5P-YhX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2052" y="-648"/>
         </scene>
@@ -106,6 +102,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="3Vz-fs-XkK" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i4i-MK-GLP">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
