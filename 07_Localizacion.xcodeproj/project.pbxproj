@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D230BB120DDACE00004F054 /* 06_VistasProgramaticas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 06_VistasProgramaticas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D230BB120DDACE00004F054 /* 07_Localizacion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 07_Localizacion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D230BB420DDACE00004F054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D230BB920DDACE00004F054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D230BBB20DDACE00004F054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,6 +26,9 @@
 		3D230C3E20DDB91A0004F054 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		3D230C4120DDD1670004F054 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3D230C4320DDD5E20004F054 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3DD10A4720E6F2C8000C4208 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		3DD10A4820E6F32F000C4208 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		3DD10A4920E6F32F000C4208 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +55,7 @@
 		3D230BB220DDACE00004F054 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D230BB120DDACE00004F054 /* 06_VistasProgramaticas.app */,
+				3D230BB120DDACE00004F054 /* 07_Localizacion.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D230BB020DDACE00004F054 /* 06_VistasProgramaticas */ = {
+		3D230BB020DDACE00004F054 /* 07_Localizacion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D230BC320DDACE10004F054 /* Build configuration list for PBXNativeTarget "06_VistasProgramaticas" */;
+			buildConfigurationList = 3D230BC320DDACE10004F054 /* Build configuration list for PBXNativeTarget "07_Localizacion" */;
 			buildPhases = (
 				3D230BAD20DDACE00004F054 /* Sources */,
 				3D230BAE20DDACE00004F054 /* Frameworks */,
@@ -94,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = 06_VistasProgramaticas;
+			name = 07_Localizacion;
 			productName = 06_VistasProgramaticas;
-			productReference = 3D230BB120DDACE00004F054 /* 06_VistasProgramaticas.app */;
+			productReference = 3D230BB120DDACE00004F054 /* 07_Localizacion.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D230BAC20DDACE00004F054 /* Build configuration list for PBXProject "06_VistasProgramaticas" */;
+			buildConfigurationList = 3D230BAC20DDACE00004F054 /* Build configuration list for PBXProject "07_Localizacion" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D230BB020DDACE00004F054 /* 06_VistasProgramaticas */,
+				3D230BB020DDACE00004F054 /* 07_Localizacion */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +166,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				3D230BB920DDACE00004F054 /* Base */,
+				3DD10A4720E6F2C8000C4208 /* en */,
+				3DD10A4820E6F32F000C4208 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3D230BBE20DDACE00004F054 /* Base */,
+				3DD10A4920E6F32F000C4208 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,6 +188,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -242,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -329,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D230BAC20DDACE00004F054 /* Build configuration list for PBXProject "06_VistasProgramaticas" */ = {
+		3D230BAC20DDACE00004F054 /* Build configuration list for PBXProject "07_Localizacion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D230BC120DDACE10004F054 /* Debug */,
@@ -338,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D230BC320DDACE10004F054 /* Build configuration list for PBXNativeTarget "06_VistasProgramaticas" */ = {
+		3D230BC320DDACE10004F054 /* Build configuration list for PBXNativeTarget "07_Localizacion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D230BC420DDACE10004F054 /* Debug */,
