@@ -1,6 +1,6 @@
 //
 //  ConversionViewController.swift
-//  06_VistasProgramaticas
+//  07_Localizacion
 //
 //  Created by d182_oscar_a on 22/06/18.
 //  Copyright © 2018 d182_oscar_a. All rights reserved.
@@ -39,8 +39,10 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
             celsiusLabel.text = "???"
         }*/
         
-        if let text = textField.text, let value = Double(text) {
-            fahrenheitValue = Measurement(value: value, unit: .fahrenheit)
+        /*if let text = textField.text, let value = Double(text) {
+            fahrenheitValue = Measurement(value: value, unit: .fahrenheit)*/
+        if let text = textField.text, let number = numberFormatter.number(from: text) {
+            fahrenheitValue = Measurement(value: number.doubleValue, unit: .fahrenheit)
         } else {
             fahrenheitValue = nil
         }
@@ -75,8 +77,14 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
         print("Replacement text: \(string)")
         return true*/
         
-        let existingTextHasDecimalSeparator = textField.text?.range(of: ".")
-        let replacementTextHasDecimalSeparator = string.range(of: ".")
+       // let existingTextHasDecimalSeparator = textField.text?.range(of: ".")
+       // let replacementTextHasDecimalSeparator = string.range(of: ".")
+       
+        let currentLocale = Locale.current
+        let decimalSeparator = currentLocale.decimalSeparator ?? "."
+        let existingTextHasDecimalSeparator = textField.text?.range(of: decimalSeparator)
+        let replacementTextHasDecimalSeparator = string.range(of: decimalSeparator)
+        
         if existingTextHasDecimalSeparator != nil,
             replacementTextHasDecimalSeparator != nil {
             return false
